@@ -1,6 +1,7 @@
 import useProyectos from "../hooks/useProyectos";
 const Colaborador = ({ colaborador }) => {
     const {handleModalEliminarColaborador} = useProyectos()
+    console.log(colaborador)
   const { nombre, email } = colaborador;
   return (
     <div className="border-b p-5 flex justify-between items-center">
